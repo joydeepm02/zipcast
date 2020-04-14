@@ -5,7 +5,7 @@ from .util import *
 from .environment import *
 
 def get_weather(zipcode=27513):
-	key = get_api_key() 
+	key = os.environ['OWM_API_KEY'] 
 	url = 'http://api.openweathermap.org/data/2.5/weather?zip=' + str(zipcode) + '&appid=' + key
 	src = urllib.request.urlopen(url).read()
 	json_data = json.loads(src.decode('utf-8'))
