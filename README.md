@@ -3,5 +3,7 @@ Simple web application that provides real-time information about the weather at 
 
 Zipcast was written in Python using the Flask web framework, as well as HTML and CSS using Bootstrap. It is hosted as a web application on Heroku.
 
+Use it [here](https://zipcast.herokuapp.com/).
+
 Demo:
 ![](https://raw.githubusercontent.com/joydeepm02/zipcast/master/static/images/demo.png)
