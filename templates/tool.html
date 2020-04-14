@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+		<div class="container">
+			<div class="jumbotron">
+				<h1 class="display-4">Zipcast</h1>
+				<p class="lead">Enter a 5-digit ZIP code for your location.</p>
+				<hr class="my-4">
+				<form action="{{ url_for('weather_handler') }}" method="post">
+	    			Zipcode<input class="form-control" type="text" name="user_zipcode"><br>
+	    			<input type="submit" value="Submit" class="submission btn btn-primary">
+				</form>
+			</div>
+		</div>
+{% endblock content %}

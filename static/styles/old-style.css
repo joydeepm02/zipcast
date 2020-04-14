@@ -1,0 +1,53 @@
+* {
+	font-family: Menlo, monospace, serif;
+}
+
+.body {
+	color: #3175b5;
+}
+
+.submission {
+	height: 25px;
+	width: 100px;
+	font-size: 18px;
+}
+
+.navbar {
+    background-color: #3175b5;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #1f4a73;
+}
+
+.footer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	background-color: #3175b5;
+  	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}

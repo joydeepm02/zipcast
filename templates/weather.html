@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- <div class=".body"> -->
+<div class="container">
+	<div class="jumbotron">
+	<h1 class="display-4">Weather in {{ location_name }}, {{ location_country }}</h1>
+	<p class="lead">Conditions: {{ conditions }}</p>
+	<p class="lead">Temperature: {{ temp }}</p>
+	<p class="lead">High: {{ max_temp }}</p>
+	<p class="lead">Low: {{ min_temp }}</p>
+	<p class="lead">Feels like: {{ feels_like_temp }}</p>
+	<hr class="my-4">
+	<a class="btn btn-primary btn-lg" href="tool" role="button">Explore another location</a>
+	</div>
+</div>
+<!-- </div> -->
+{% endblock content %}
