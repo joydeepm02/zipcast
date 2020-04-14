@@ -2,14 +2,10 @@ import os
 import json
 import urllib.request
 from .util import *
-
-def get_api_key():
-	with open(os.path.expanduser('.key')) as f:
-		key = f.readline()
-	return key
+from .environment import *
 
 def get_weather(zipcode=27513):
-	key = "4ab82e2f5f9ed0f473503b151b541085" # get_api_key()
+	key = get_api_key() 
 	url = 'http://api.openweathermap.org/data/2.5/weather?zip=' + str(zipcode) + '&appid=' + key
 	src = urllib.request.urlopen(url).read()
 	json_data = json.loads(src.decode('utf-8'))
