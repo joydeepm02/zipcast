@@ -14,8 +14,18 @@ body {
 	text-align: center;
 }
 
+/*
 .navbar li a:hover {
 	background-color: #0068D8;
+}
+*/
+
+li a:hover {
+	color: white !important;
+}
+
+li a {
+	color: #CCE4FF !important;
 }
 
 .bg-custom-gradient {
