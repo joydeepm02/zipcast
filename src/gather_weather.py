@@ -2,7 +2,6 @@ import os
 import json
 import urllib.request
 from .util import *
-from .environment import *
 
 def get_weather(zipcode=27513):
 	key = os.environ['OWM_API_KEY'] 
