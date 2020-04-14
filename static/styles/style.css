@@ -6,6 +6,10 @@ html {
 	font-family: 'Bellota Text', cursive;
 }
 
+body {
+	background-color: #DBDBDB;
+}
+
 .centered-text {
 	text-align: center;
 }
@@ -19,7 +23,7 @@ html {
 }
 
 .jumbotron {
-	background-color: #DEDEDE;
+	background-color: #C4C4C4;
 }
 
 .social-icon {
