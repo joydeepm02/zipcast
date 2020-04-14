@@ -18,6 +18,10 @@ html {
 	background-image: linear-gradient(to right, #007BFF, #03b5fc);
 }
 
+.jumbotron {
+	background-color: #DEDEDE;
+}
+
 .social-icon {
 	height: 5%;
 	width: 5%;
